@@ -1,49 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Cardápio>
+<!DOCTYPE Cardapio SYSTEM "definicoes.dtd">
+<Cardapio>
     
     <Prato id="P1">
         <Nome>Pizza De Calabresa</Nome>
-        <Descrição>Pizza com calabresa em cima</Descrição>
-        <Ingredientes>pizza e calabresa</Ingredientes>
-        <Preço>50,00</Preço>
+        <Descricao>Pizza com calabresa em cima</Descricao>
+        <Ingredientes>
+            <Ingrediente>pizza e calabresa</Ingrediente>
+        </Ingredientes>
+        <Preco>50,00</Preco>
         <Calorias>300</Calorias>
         <Tempo>20min</Tempo>
     </Prato>
 
     <Prato id="P2">
         <Nome>Pizza De Mussarela</Nome>
-        <Descrição>Pizza com queijo em cima</Descrição>
-        <Ingredientes>pizza e queijo</Ingredientes>
-        <Preço>51,00</Preço>
+        <Descricao>Pizza com queijo em cima</Descricao>
+        <Ingredientes>
+            <Ingrediente>pizza e queijo</Ingrediente>
+        </Ingredientes>
+        <Preco>51,00</Preco>
         <Calorias>100</Calorias>
         <Tempo>20min</Tempo>
     </Prato>
 
     <Prato id="P3">
         <Nome>Pizza De Preesunto</Nome>
-        <Descrição>Pizza com presunto em cima</Descrição>
-        <Ingredientes>pizza e presunto</Ingredientes>
-        <Preço>52,00</Preço>
+        <Descricao>Pizza com presunto em cima</Descricao>
+        <Ingredientes>
+            <Ingrediente>pizza e presunto</Ingrediente>
+        </Ingredientes>
+        <Preco>52,00</Preco>
         <Calorias>200</Calorias>
         <Tempo>20min</Tempo>
     </Prato>
 
     <Prato id="P4">
         <Nome>Pizza Nordestina</Nome>
-        <Descrição>Pizza com carne, Chedar, bacon e coalho em cima</Descrição>
-        <Ingredientes>pizza, carne, chedar, bacon e coalho</Ingredientes>
-        <Preço>53,00</Preço>
+        <Descricao>Pizza com carne, Chedar, bacon e coalho em cima</Descricao>
+        <Ingredientes>
+            <Ingrediente>pizza, carne, chedar, bacon e coalho</Ingrediente>
+        </Ingredientes>
+        <Preco>53,00</Preco>
         <Calorias>500</Calorias>
         <Tempo>20min</Tempo>
     </Prato>
 
     <Prato id="P5">
         <Nome>Pizza Sertaneja</Nome>
-        <Descrição>Pizza com carne, catupiri e coalho em cima</Descrição>
-        <Ingredientes>pizza, carne, catupiri e coalho</Ingredientes>
-        <Preço>54,00</Preço>
+        <Descricao>Pizza com carne, catupiri e coalho em cima</Descricao>
+        <Ingredientes>
+            <Ingrediente>pizza e carne, catupiri e coalho</Ingrediente>
+        </Ingredientes>
+        <Preco>54,00</Preco>
         <Calorias>400</Calorias>
         <Tempo>20min</Tempo>
     </Prato>
 
-</Cardápio>
+</Cardapio>
