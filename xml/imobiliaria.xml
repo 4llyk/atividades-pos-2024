@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristica, valor)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT proprietario (nome, (email | telefone)*)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT endereco (rua, bairro, cidade, numero?)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT caracteristica (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel>
+      <descricao>Apartamento na região central</descricao>
+      <proprietario>
+        <nome>João da Silva</nome>
+        <email>j.silva@example.com</email>
+        <telefone>11976543210</telefone>
+      </proprietario>
+        <endereco>
+          <rua>Rua das Árvores</rua>
+          <bairro>Centro Histórico</bairro>
+          <cidade>São Paulo</cidade>
+          <numero>456</numero>
+        </endereco>
+        <caracteristica>
+          <tamanho>100m²</tamanho>
+          <numQuartos>2</numQuartos>
+          <numBanheiros>1</numBanheiros>
+        </caracteristica>
+      <valor>500000</valor>
+    </imovel>
+    
+    <imovel>
+      <descricao>Casa com piscina</descricao>
+      <proprietario>
+        <nome>Maria Fernandes</nome>
+        <email>maria.fernandes@example.com</email>
+        <telefone>2134567890</telefone>
+      </proprietario>
+      <endereco>
+          <rua>Rua das Palmeiras</rua>
+          <bairro>Jardim Botânico</bairro>
+          <cidade>Rio de Janeiro</cidade>
+          <numero>789</numero>
+      </endereco>
+        <caracteristica>
+          <tamanho>300m²</tamanho>
+          <numQuartos>4</numQuartos>
+          <numBanheiros>3</numBanheiros>
+        </caracteristica>
+      <valor>900000</valor>
+    </imovel>
+    
+    <imovel>
+      <descricao>Estúdio reformado</descricao>
+      <proprietario>
+        <nome>Carlos Alberto</nome>
+        <telefone>31987654321</telefone>
+      </proprietario>
+      <endereco>
+          <rua>Avenida Universitária</rua>
+          <bairro>Barro Preto</bairro>
+          <cidade>Belo Horizonte</cidade>
+      </endereco>
+        <caracteristica>
+          <tamanho>45m²</tamanho>
+          <numQuartos>1</numQuartos>
+          <numBanheiros>1</numBanheiros>
+        </caracteristica>
+      <valor>250000</valor>
+    </imovel>
+    
+    <imovel>
+      <descricao>Apartamento com vista para o mar</descricao>
+      <proprietario>
+        <nome>Ana Paula</nome>
+        <email>ana.paula@example.com</email>
+      </proprietario>
+      <endereco>
+          <rua>Rua do Sol</rua>
+          <bairro>Praia de Iracema</bairro>
+          <cidade>Fortaleza</cidade>
+          <numero>1234</numero>
+       </endereco>
+        <caracteristica>
+          <tamanho>120m²</tamanho>
+          <numQuartos>3</numQuartos>
+          <numBanheiros>2</numBanheiros>
+        </caracteristica>
+      <valor>700000</valor>
+    </imovel>
+    
+    <imovel>
+      <descricao>Sítio com piscina e churrasqueira</descricao>
+      <proprietario>
+        <nome>Fernando Soares</nome>
+        <telefone>11999887766</telefone>
+      </proprietario>
+      <endereco>
+          <rua>Estrada do Campo</rua>
+          <bairro>Zona Rural</bairro>
+          <cidade>Campinas</cidade>
+      </endereco>
+        <caracteristica>
+          <tamanho>1000m²</tamanho>
+          <numQuartos>6</numQuartos>
+          <numBanheiros>5</numBanheiros>
+        </caracteristica>
+      <valor>2000000</valor>
+    </imovel>
+</imobiliaria>
