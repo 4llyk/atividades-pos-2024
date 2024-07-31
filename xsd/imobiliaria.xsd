@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="imobiliaria.xsd">
+  
+  <imovel>
+    <descricao>Casa com 3 quartos e 2 banheiros</descricao>
+    <proprietario>
+      <nome>João Silva</nome>
+      <email>joao.silva@example.com</email>
+      <telefone>(11) 98765-4321</telefone>
+      <telefone>(11) 91234-5678</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Avenida Paulista</rua>
+      <bairro>Centro</bairro>
+      <cidade>São Paulo</cidade>
+      <numero>123</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>120.5</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>500000.00</valor>
+  </imovel>
+
+  
+  <imovel>
+    <descricao>Apartamento com 2 quartos e 1 banheiro</descricao>
+    <proprietario>
+      <nome>Maria Oliveira</nome>
+      <telefone>(21) 99876-5432</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Flores</rua>
+      <bairro>Jardim</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <numero>45</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>85.0</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>350000.00</valor>
+  </imovel>
+
+  
+  <imovel>
+    <descricao>Sobrado com 4 quartos e 3 banheiros</descricao>
+    <proprietario>
+      <nome>Pedro Costa</nome>
+      <telefone>(31) 97654-3210</telefone>
+      <email>pedro.costa@example.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Acácias</rua>
+      <bairro>Alvorada</bairro>
+      <cidade>Belo Horizonte</cidade>
+      
+    </endereco>
+    <caracteristicas>
+      <tamanho>200.0</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>750000.00</valor>
+  </imovel>
+
+  
+  <imovel>
+    <descricao>Kitnet no centro da cidade</descricao>
+    <proprietario>
+      <nome>Ana Souza</nome>
+      
+    </proprietario>
+    <endereco>
+      <rua>Rua da Liberdade</rua>
+      <bairro>Centro</bairro>
+      <cidade>Fortaleza</cidade>
+      <numero>789</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>40.0</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>150000.00</valor>
+  </imovel>
+
+  
+  <imovel>
+    <descricao>Chácara com área verde</descricao>
+    <proprietario>
+      <nome>Lucia Martins</nome>
+      <email>lucia.martins@example.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Estrada da Fazenda</rua>
+      <bairro>Zona Rural</bairro>
+      <cidade>Curitiba</cidade>
+      <numero>1000</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>300.0</tamanho>
+      <numQuartos>5</numQuartos>
+      <numBanheiros>4</numBanheiros>
+    </caracteristicas>
+    <valor>900000.00</valor>
+  </imovel>
+</imobiliaria>
