@@ -1,0 +1,106 @@
+{
+    "imobiliaria": {
+      "imovel": [
+        {
+          "descricao": "Apartamento moderno no centro da cidade",
+          "proprietario": {
+            "nome": "João Silva",
+            "email": "joao.silva@example.com",
+            "telefone": [
+              "+5511998765432",
+              "+5511987654321"
+            ]
+          },
+          "endereco": {
+            "rua": "Rua das Flores",
+            "bairro": "Centro",
+            "cidade": "São Paulo",
+            "numero": 123
+          },
+          "caracteristicas": {
+            "tamanho": 85.5,
+            "numQuartos": 3,
+            "numBanheiros": 2
+          },
+          "valor": "R$ 750,000"
+        },
+        {
+          "descricao": "Casa espaçosa com jardim",
+          "proprietario": {
+            "nome": "Maria Oliveira",
+            "telefone": "+5511999876543"
+          },
+          "endereco": {
+            "rua": "Avenida das Palmeiras",
+            "bairro": "Jardim Primavera",
+            "cidade": "Rio de Janeiro",
+            "numero": 456
+          },
+          "caracteristicas": {
+            "tamanho": 150.0,
+            "numQuartos": 4,
+            "numBanheiros": 3
+          },
+          "valor": "R$ 1,200,000"
+        },
+        {
+          "descricao": "Estúdio aconchegante para estudantes",
+          "proprietario": {
+            "nome": "Ana Santos",
+            "email": "ana.santos@example.com"
+          },
+          "endereco": {
+            "rua": "Rua das Universidades",
+            "bairro": "Vila Universitária",
+            "cidade": "Belo Horizonte"
+            
+          },
+          "caracteristicas": {
+            "tamanho": 40.0,
+            "numQuartos": 1,
+            "numBanheiros": 1
+          },
+          "valor": "R$ 300,000"
+        },
+        {
+          "descricao": "Apartamento de luxo com vista para o mar",
+          "proprietario": {
+            "nome": "Carlos Almeida",
+            "telefone": "+5511987654322"
+          },
+          "endereco": {
+            "rua": "Rua do Oceano",
+            "bairro": "Praia do Sol",
+            "cidade": "Florianópolis",
+            "numero": 789
+          },
+          "caracteristicas": {
+            "tamanho": 200.5,
+            "numQuartos": 5,
+            "numBanheiros": 4
+          },
+          "valor": "R$ 3,500,000"
+        },
+        {
+          "descricao": "Chalé rústico na montanha",
+          "proprietario": {
+            "nome": "Fernanda Costa",
+            "telefone": "+5511965432109"
+          },
+          "endereco": {
+            "rua": "Estrada da Serra",
+            "bairro": "Montanha Alta",
+            "cidade": "Campos do Jordão",
+            "numero": 55
+          },
+          "caracteristicas": {
+            "tamanho": 120.0,
+            "numQuartos": 3,
+            "numBanheiros": 2
+          },
+          "valor": "R$ 950,000"
+        }
+      ]
+    }
+  }
+  

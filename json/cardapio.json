@@ -1,0 +1,80 @@
+{
+    "cardapio": {
+      "pratos": [
+        {
+          "id": 1,
+          "nome": "Salada Caesar",
+          "descricao": "Salada clássica com alface romana, croutons e molho Caesar.",
+          "ingredientes": [
+            "Alface romana",
+            "Croutons",
+            "Molho Caesar",
+            "Parmesão"
+          ],
+          "preco": 29.90,
+          "calorias": 350,
+          "tempoPreparo": "15 minutos"
+        },
+        {
+          "id": 2,
+          "nome": "Filé Mignon ao Molho Madeira",
+          "descricao": "Filé mignon suculento servido com molho madeira e champignons.",
+          "ingredientes": [
+            "Filé mignon",
+            "Molho madeira",
+            "Champignons",
+            "Vinho tinto"
+          ],
+          "preco": 69.90,
+          "calorias": 700,
+          "tempoPreparo": "30 minutos"
+        },
+        {
+          "id": 3,
+          "nome": "Espaguete à Bolonhesa",
+          "descricao": "Espaguete com molho bolonhesa tradicional, feito com carne moída e tomate.",
+          "ingredientes": [
+            "Espaguete",
+            "Carne moída",
+            "Molho de tomate",
+            "Cebola",
+            "Alho"
+          ],
+          "preco": 39.50,
+          "calorias": 600,
+          "tempoPreparo": "25 minutos"
+        },
+        {
+          "id": 4,
+          "nome": "Sopa de Legumes",
+          "descricao": "Sopa leve e nutritiva com uma variedade de legumes frescos.",
+          "ingredientes": [
+            "Cenoura",
+            "Batata",
+            "Abobrinha",
+            "Ervilha",
+            "Caldo de legumes"
+          ],
+          "preco": 24.90,
+          "calorias": 200,
+          "tempoPreparo": "20 minutos"
+        },
+        {
+          "id": 5,
+          "nome": "Risoto de Cogumelos",
+          "descricao": "Risoto cremoso preparado com cogumelos frescos e queijo parmesão.",
+          "ingredientes": [
+            "Arroz arbóreo",
+            "Cogumelos",
+            "Queijo parmesão",
+            "Vinho branco",
+            "Cebola"
+          ],
+          "preco": 49.90,
+          "calorias": 550,
+          "tempoPreparo": "30 minutos"
+        }
+      ]
+    }
+  }
+  

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:c="http://cardapio.org"
-    targetNamespace="http://cardapio.org"
+    xmlns:c="http://cardapio2.org"
+    targetNamespace="http://cardapio2.org"
     elementFormDefault="qualified">
 
 
