@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/imobiliaria.xsd">
+
+    
+    <imovel>
+        <descricao>Apartamento moderno no centro da cidade</descricao>
+        <proprietario>
+            <nome>João Silva</nome>
+            <email>joao.silva@example.com</email>
+            <telefone>+5511998765432</telefone>
+            <telefone>+5511987654321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>85.5</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 750,000</valor>
+    </imovel>
+
+    
+    <imovel>
+        <descricao>Casa espaçosa com jardim</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <telefone>+5511999876543</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida das Palmeiras</rua>
+            <bairro>Jardim Primavera</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>456</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>150.0</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1,200,000</valor>
+    </imovel>
+
+    
+    <imovel>
+        <descricao>Estúdio aconchegante para estudantes</descricao>
+        <proprietario>
+            <nome>Ana Santos</nome>
+            <email>ana.santos@example.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Universidades</rua>
+            <bairro>Vila Universitária</bairro>
+            <cidade>Belo Horizonte</cidade>
+            <!-- Sem número -->
+        </endereco>
+        <caracteristicas>
+            <tamanho>40.0</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 300,000</valor>
+    </imovel>
+
+    
+    <imovel>
+        <descricao>Apartamento de luxo com vista para o mar</descricao>
+        <proprietario>
+            <nome>Carlos Almeida</nome>
+            <telefone>+5511987654322</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Oceano</rua>
+            <bairro>Praia do Sol</bairro>
+            <cidade>Florianópolis</cidade>
+            <numero>789</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>200.5</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 3,500,000</valor>
+    </imovel>
+
+    
+    <imovel>
+        <descricao>Chalé rústico na montanha</descricao>
+        <proprietario>
+            <nome>Fernanda Costa</nome>
+            <telefone>+5511965432109</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada da Serra</rua>
+            <bairro>Montanha Alta</bairro>
+            <cidade>Campos do Jordão</cidade>
+            <numero>55</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120.0</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 950,000</valor>
+    </imovel>
+
+</imobiliaria>

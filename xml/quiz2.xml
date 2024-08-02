@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz versao="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quiz.xsd">
+
+    <disciplina>Matemática</disciplina>
+
+    <professor>
+        <nome>João Pereira</nome>
+        <matrícula>12345</matrícula>
+    </professor>
+
+    <turma>Turma A</turma>
+    <data>2024-08-15</data>
+
+    <questões>
+        <questão>
+            <enunciado>Qual é o valor de PI?</enunciado>
+            <pontuação>5</pontuação>
+            <alternativas>
+                <alternativa correta="nao">3</alternativa>
+                <alternativa correta="sim">3.14</alternativa>
+                <alternativa correta="nao">3.1415</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é a capital da França?</enunciado>
+            <pontuação>3</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Berlim</alternativa>
+                <alternativa correta="sim">Paris</alternativa>
+                <alternativa correta="nao">Madri</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é o quadrado de 5?</enunciado>
+            <pontuação>4</pontuação>
+            <alternativas>
+                <alternativa correta="nao">10</alternativa>
+                <alternativa correta="sim">25</alternativa>
+                <alternativa correta="nao">20</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+
+</quiz>

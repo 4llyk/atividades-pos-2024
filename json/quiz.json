@@ -1,0 +1,77 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Matemática",
+      "professor": {
+        "nome": "João Pereira",
+        "matrícula": "12345"
+      },
+      "turma": "Turma A",
+      "data": "2024-08-15",
+      "questões": {
+        "questão": [
+          {
+            "enunciado": "Qual é o valor de PI?",
+            "pontuação": 5,
+            "alternativas": {
+              "alternativa": [
+                {
+                  "texto": "3",
+                  "correta": false
+                },
+                {
+                  "texto": "3.14",
+                  "correta": true
+                },
+                {
+                  "texto": "3.1415",
+                  "correta": false
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Qual é a capital da França?",
+            "pontuação": 3,
+            "alternativas": {
+              "alternativa": [
+                {
+                  "texto": "Berlim",
+                  "correta": false
+                },
+                {
+                  "texto": "Paris",
+                  "correta": true
+                },
+                {
+                  "texto": "Madri",
+                  "correta": false
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Qual é o quadrado de 5?",
+            "pontuação": 4,
+            "alternativas": {
+              "alternativa": [
+                {
+                  "texto": "10",
+                  "correta": false
+                },
+                {
+                  "texto": "25",
+                  "correta": true
+                },
+                {
+                  "texto": "20",
+                  "correta": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+  
