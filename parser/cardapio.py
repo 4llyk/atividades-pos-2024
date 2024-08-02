@@ -2,6 +2,7 @@ from xml.dom.minidom import parse
 
 dom = parse("cardapio.xml")
 
+
 # Elemento raiz do XML (cardapio)
 cardapio = dom.documentElement
 
