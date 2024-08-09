@@ -1,6 +1,6 @@
 from xml.dom.minidom import parse
 
-dom = parse("xml/cardapio2.xml")
+dom = parse("xml_schema/cardapio.xml")
 
 
 cardapio = dom.documentElement
@@ -8,19 +8,20 @@ cardapio = dom.documentElement
 pratos = cardapio.getElementsByTagName('prato')
 
 for prato in pratos:
-    categoria = prato.getAttribute('categoria')
-    elemento_titulo = prato.getElementsByTagName('título')[0]
-    titulo = elemento_titulo.firstChild.nodeValue
-    elemento_autor = prato.getElementsByTagName('autor')[0]
-    origem = elemento_autor.getAttribute('origem')
-    autor = elemento_autor.firstChild.nodeValue
-    elemento_ano = prato.getElementsByTagName('ano')[0]
-    ano = elemento_ano.firstChild.nodeValue
+    id = prato.getAttribute('id')
+    nome = prato.getElementsByTagName('nome')[0].firstChild.nodeValue
+    ingredientes = prato.getElementsByTagName('ingrediente')[0].firstChild.nodeValue
+    preco = prato.getElementsByTagName('preco')[0].firstChild.nodeValue
+    calorias = prato.getElementsByTagName('calorias')[0].firstChild.nodeValue
+    tempop = prato.getElementsByTagName('tempoPreparo')[0].firstChild.nodeValue
 
-    print("Categoria:", categoria)
-    print("Título:", titulo)
-    print(f'Autor: {autor} ({origem})')
-    print("Ano:", ano)
+
+    print("id:", id)
+    print("Nome:", nome)
+    print("Ingrediente:", ingredientes)
+    print("Preço:", preco)
+    print("Calorias:", calorias)
+    print("Tempo de Preparo:", tempop)
     print("---\n")
 
 def mostrar_menu():
