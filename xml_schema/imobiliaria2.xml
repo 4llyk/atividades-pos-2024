@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<imobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/imobiliaria.xsd">
+<imobiliaria xmlns="http://imobiliariaaa.org"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://imobiliariaaa.org imobiliaria.xsd">
 
     
     <imovel>

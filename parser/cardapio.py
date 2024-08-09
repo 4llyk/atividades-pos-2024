@@ -1,6 +1,6 @@
 from xml.dom.minidom import parse
 
-dom = parse("cardapio.xml")
+dom = parse("xml/cardapio2.xml")
 
 
 cardapio = dom.documentElement

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<quiz versao="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quiz.xsd">
+<quiz versao="2" xmlns="http://quizzz.org"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://quizzz.org quiz.xsd">
 
     <disciplina>Matemática</disciplina>
 

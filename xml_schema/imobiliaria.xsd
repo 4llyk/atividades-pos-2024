@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns:"http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://imobiliariaaa.org"
+        targetNamespace="http://imobiliariaaa.org"
+        elementFormDefault="qualified">
+
 
     <element name="imobiliaria">
         <complexType>

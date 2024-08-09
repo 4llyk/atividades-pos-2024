@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cardapio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cardapio.xsd">
+<cardapio xmlns="http://cardapiolegal.org"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://cardapiolegal.org cardapio.xsd">
 
-    
     <prato id="1">
         <nome>Salada Caesar</nome>
         <descricao>Salada clássica com alface romana, croutons e molho Caesar.</descricao>
@@ -16,7 +17,6 @@
         <tempoPreparo>15 minutos</tempoPreparo>
     </prato>
 
-    
     <prato id="2">
         <nome>Filé Mignon ao Molho Madeira</nome>
         <descricao>Filé mignon suculento servido com molho madeira e champignons.</descricao>
@@ -31,7 +31,6 @@
         <tempoPreparo>30 minutos</tempoPreparo>
     </prato>
 
-    
     <prato id="3">
         <nome>Espaguete à Bolonhesa</nome>
         <descricao>Espaguete com molho bolonhesa tradicional, feito com carne moída e tomate.</descricao>
@@ -47,7 +46,6 @@
         <tempoPreparo>25 minutos</tempoPreparo>
     </prato>
 
-    
     <prato id="4">
         <nome>Sopa de Legumes</nome>
         <descricao>Sopa leve e nutritiva com uma variedade de legumes frescos.</descricao>
@@ -63,7 +61,6 @@
         <tempoPreparo>20 minutos</tempoPreparo>
     </prato>
 
-    
     <prato id="5">
         <nome>Risoto de Cogumelos</nome>
         <descricao>Risoto cremoso preparado com cogumelos frescos e queijo parmesão.</descricao>

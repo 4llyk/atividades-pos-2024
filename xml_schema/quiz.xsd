@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns:"http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://quizzz.org"
+        targetNamespace="http://quizzz.org"
+        elementFormDefault="qualified">
+
 
     <element name="quiz">
         <complexType>
