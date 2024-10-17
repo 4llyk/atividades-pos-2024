@@ -1,6 +1,5 @@
-// Função para buscar a lista de Pokémon da API
 function fetchPokemonList() {
-    fetch('https://pokeapi.co/api/v2/pokemon?limit=20') // Limite inicial de 20 Pokémon
+    fetch('https://pokeapi.co/api/v2/pokemon?limit=20')
         .then(response => response.json())
         .then(data => {
             const pokemonList = document.getElementById('pokemon-list');
@@ -10,7 +9,7 @@ function fetchPokemonList() {
                 pokemonItem.textContent = pokemon.name;
                 pokemonItem.setAttribute('data-url', pokemon.url);
 
-                // Adiciona evento de clique para exibir detalhes do Pokémon
+                
                 pokemonItem.addEventListener('click', () => {
                     fetchPokemonDetails(pokemon.url);
                 });
@@ -21,7 +20,6 @@ function fetchPokemonList() {
         .catch(error => console.error('Erro ao buscar Pokémon:', error));
 }
 
-// Função para buscar os detalhes de um Pokémon específico
 function fetchPokemonDetails(url) {
     fetch(url)
         .then(response => response.json())
@@ -45,5 +43,4 @@ function fetchPokemonDetails(url) {
         .catch(error => console.error('Erro ao buscar detalhes do Pokémon:', error));
 }
 
-// Chama a função para buscar a lista de Pokémon ao carregar a página
 document.addEventListener('DOMContentLoaded', fetchPokemonList);
